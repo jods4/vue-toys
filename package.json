@@ -1,0 +1,22 @@
+{
+  "name": "vue-toys",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --env.prod"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-alpha.9"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-alpha.9",
+    "css-loader": "^3.4.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "vue-loader": "^16.0.0-alpha.3",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
